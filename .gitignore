@@ -1,0 +1,35 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# Streamlit config & secrets
+.streamlit/secrets.toml
+
+# IDE and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Large dataset backups (Exceeding GitHub's 100MB hard limit)
+Data/*_backup/
+
+# Large media files (Keep repo lightweight; upload videos to YouTube/Vimeo/Loom or GitHub Releases)
+*.mov
+*.mp4
+
+# Generated PDF outputs (keep presentation slides)
+*.pdf
+!ESG_AI_slides.pdf
